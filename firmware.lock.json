@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-05",
+  "name": "Unleashed",
+  "repository": "https://github.com/DarkFlippers/unleashed-firmware",
+  "tag": "unlshd-094",
+  "commit": "2f62b3ab5d767c41e09ab17c6b5fbd175c8c4c85",
+  "commit_github_verification": true,
+  "target": "f7",
+  "channel": "stable",
+  "variant": "standard",
+  "release_url": "https://github.com/DarkFlippers/unleashed-firmware/releases/tag/unlshd-094",
+  "published_at": "2026-10-14T20:50:11Z",
+  "asset": {
+    "name": "flipper-z-f7-update-unlshd-094.tgz",
+    "url": "https://github.com/DarkFlippers/unleashed-firmware/releases/download/unlshd-094/flipper-z-f7-update-unlshd-094.tgz",
+    "bytes": 4764808,
+    "sha256": "fb572b9b6196644a542fc21743edc847d3274fff798a1bd48abfee30bbae9e11",
+    "digest_source": "GitHub release asset API"
+  },
+  "official_prerequisite_and_recovery": {
+    "version": "1.5.1",
+    "target": "f7",
+    "url": "https://update.flipperzero.one/builds/firmware/1.5.1/flipper-z-f7-update-1.5.1.tgz",
+    "sha256": "44d0045d0bfb83c359bb7910c639b869856997bdcda62f4276bde0cb0653fa52",
+    "digest_source": "https://update.flipperzero.one/firmware/directory.json"
+  }
+}

@@ -1,0 +1,32 @@
+# Private device contents must never be published.
+private/
+backups/
+captures/
+secrets/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.nfc
+*.rfid
+*.sub
+*.ibtn
+*.pcap
+*.pcapng
+*.ir
+*.log
+*.tgz
+*.tar
+*.zip
+*.bin
+*.dfu
+*.fap
+# Downloaded and generated build artifacts
+/downloads/
+/upstream/
+/build/
+/.venv/
+__pycache__/
+.DS_Store
