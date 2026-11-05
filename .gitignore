@@ -19,10 +19,13 @@ secrets/
 *.log
 *.tgz
 *.tar
+*.tar.gz
+*.7z
 *.zip
 *.bin
 *.dfu
 *.fap
+*.u2f
 # Downloaded and generated build artifacts
 /downloads/
 /upstream/

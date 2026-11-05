@@ -8,6 +8,8 @@ A reproducible starting point for Flipper Zero development and authorized securi
 
 The [firmware lock](firmware.lock.json) pins the source commit, release image and SHA-256 digest. Official **1.5.1** is the first-install prerequisite and recovery baseline. The setup does not require the optional extra-app bundle.
 
+Installation on F7 hardware completed successfully; see the [validation record](docs/validation.md).
+
 | Option | Stable release checked | Role in this project |
 | --- | --- | --- |
 | [Unleashed](https://github.com/DarkFlippers/unleashed-firmware/releases/tag/unlshd-094) | `unlshd-094`, October 14, 2026 | Selected for expanded testing capabilities and recent maintenance |
@@ -30,6 +32,7 @@ Downloads remain in ignored `downloads/`. The script checks the pinned SHA-256 a
 ## Work here
 
 - [Installation and recovery](docs/setup.md)
+- [Firmware selection and security checks](docs/firmware-review.md)
 - [Building from the pinned source](docs/build.md)
 - [Lab scope template](examples/lab-scope.md)
 - [Security and private-data handling](SECURITY.md)
